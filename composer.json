@@ -1,0 +1,37 @@
+{
+	"name": "devinow/http",
+	"description": "Devinow Framework File Upload Library,HTTP Utilities.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [ "http", "https", "headers" ],
+	"require": {
+	  "php": ">=8.1.0"
+	},
+	"authors": [
+	  {
+		"name": "Devinow",
+		"email": "info@devinow.xyz",
+		"homepage": "https://devinow.xyz",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/devinow/http"
+	  }
+	],
+	"support": {
+		  "email": "info@devinow.xyz"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Devinow\\Http\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
