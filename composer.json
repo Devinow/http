@@ -1,6 +1,6 @@
 {
 	"name": "devinow/http",
-	"description": "Devinow Framework File Upload Library,HTTP Utilities.",
+	"description": "Devinow Framework Http Library,HTTP Utilities.",
 	"type": "library",
 	"license": "MIT",
 	"keywords": [ "http", "https", "headers" ],
