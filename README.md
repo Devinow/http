@@ -11,7 +11,7 @@ composer require devinow/http
    ```php
    $header = \Devinow\Http\ResponseHeader::get('Content-Type');
    // or
-   $header = \Devinow\Http\ResponseHeader::get('Content-Type', 'text/');
+   $header = \Devinow\Http\ResponseHeader::get('Content-Type', 'text/html');
    ```
 
  * Setting a header (overwriting other headers with the same name)
@@ -39,5 +39,5 @@ composer require devinow/http
    ```php
    $header = \Devinow\Http\ResponseHeader::take('Set-Cookie');
    // or
-   $header = \Devinow\Http\ResponseHeader::take('Set-Cookie', 'mysession=');
+   $header = \Devinow\Http\ResponseHeader::take('Set-Cookie', 'mysession=test');
    ```
